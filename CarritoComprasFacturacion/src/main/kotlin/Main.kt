@@ -18,7 +18,7 @@ class Carrito {
         return if (producto.stock >= cantidad) {
             items.add(producto to cantidad)
             producto.stock -= cantidad
-            "¡${producto.nombre} agregado correctamente!"
+            "¡${producto.nombre} agregado correctamente!!"
         } else {
             val error = "Error: Solo quedan ${producto.stock} unidades de ${producto.nombre}"
             Logger.registrarError(error)
