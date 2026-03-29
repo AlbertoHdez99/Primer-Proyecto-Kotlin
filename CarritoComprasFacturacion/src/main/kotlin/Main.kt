@@ -42,7 +42,7 @@ class Carrito {
 
     fun calcularSubtotal() = items.sumOf { it.first.precio * it.second }
 
-    // Función para limpiar el carrito después de una compra
+    // Función para limpiar el carrito después de una compra!
     fun vaciar() {
         items = mutableListOf()
     }
